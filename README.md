@@ -2,7 +2,7 @@
 El Challenge se trata de manejar iteraciones sobre una matriz de 8x8.
 La matriz viene prevista por el desafio.
 
-![Matriz de ejemplo en el código](https://imgur.com/a/N3coNaL)
+![Matriz de ejemplo en el código](https://i.imgur.com/fIkm8gX.png)
 
 Dada la matriz hay que conseguir:
 * Que se puedan clickear para marcar en un casillero y luego 3 clicks mas en casilleros aledaños para lograr dibujar una linea (tiene que ser del largo de 4 casilleros), horizontal o vertical.
