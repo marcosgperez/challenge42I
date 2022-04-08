@@ -1,15 +1,17 @@
-import React from 'react';
-import Tile, { TileProps } from './Tile';
+import React from "react";
+import Tile, { TileProps } from "./Tile";
 
 type MatrizProps = {
-  tiles: TileProps[],
-}
+  tiles: TileProps[]
+};
 
-const Matriz = ({tiles}: MatrizProps) => {
+const Matriz = ({ tiles }: MatrizProps) => {
   return (
     <div className="Matriz">
-      {tiles.map((tile, i) => (<Tile {...tile} />))}
+      {tiles.map((tile, i) => (
+        <Tile {...tiles} {...tile} />
+      ))}
     </div>
-  )
-}
+  );
+};
 export default Matriz;
