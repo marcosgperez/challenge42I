@@ -1,5 +1,6 @@
+
 .Matriz {
-  max-width: 50vw;
+  max-width: 40vw;
   margin: auto;
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
@@ -20,7 +21,23 @@
   aspect-ratio: 1 / 1;
   border: 1px solid grey;
   &.checked {
-    background-color: #00ff00;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(9,85,235,1) 100%);
+  }
+  &.active {
+    background: rgb(19, 34, 107);
+    background: radial-gradient(circle, rgb(78, 99, 201) 0%, rgb(18, 43, 94) 100%)!important;
+  }
+  &.disabled {
+    background: rgb(168,251,63);
+    background: radial-gradient(circle, rgba(168,251,63,1) 0%, rgba(235,171,9,1) 100%);
+  }
+  &.wrong {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(235,9,55,1) 100%);
   }
   cursor: pointer;
 }
+
+
+  

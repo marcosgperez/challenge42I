@@ -94,3 +94,26 @@ body {
     }
   }
 }
+
+.containerBtns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.containIcon {
+  background: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 6px;
+  width: 100%
+}
+
+.containIcon:hover {
+  background:rgb(104, 151, 255)
+}
+
+.btnIcon {
+  padding: 10px;
+  font-size: 60px;
+  color: black;
+}
